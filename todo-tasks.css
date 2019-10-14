@@ -1,0 +1,46 @@
+.todo-tasks {
+}
+	.todo-tasks__item {
+		padding: 16px;
+		border: none;
+	}
+		.todo-tasks__item:after {
+			content: '';
+			clear: both;
+			display: table;
+		}
+		.todo-tasks__item:hover {
+			z-index: -1;
+			background: rgba(0,0,0,.03);
+			cursor: pointer;
+		}
+		.todo-tasks__item_ready-marker {
+			align-self: center;
+			float: left;
+			margin-right: 20px;
+		}
+		.todo-tasks__item_text-w {
+			width: 100%;
+			overflow: hidden;
+			padding-right: 20px;
+		}
+		.todo-tasks__item_text {
+			cursor: text;
+			font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , Arial, sans-serif !important;
+			width: 100%;
+			padding-top: 12px;
+		}
+		.todo-tasks__item_text:focus {
+			outline: none;
+		}
+		.todo-tasks__item_remove {
+			float: right;
+			order: 5;
+			align-self: flex-end;
+		}
+			.todo-tasks__item:hover .todo-tasks__item_remove {
+				visibility: visible;
+			}
+			.todo-tasks__item_remove:hover {
+				visibility: visible;
+			}
