@@ -2,7 +2,6 @@
 	display: inline-block;
 	position: relative;
 }
-
 	.custom-checkbox__target {
 		position: absolute;
 		width: 100%;
@@ -16,11 +15,9 @@
 		border-radius: 50%;
 		z-index: 1;
 	}
-
 	.custom-checkbox__target:checked ~ .custom-checkbox__visual {
 		border-color: #5dc2af;
 	}
-
 	.custom-checkbox__target:checked ~ .custom-checkbox__visual .custom-checkbox__visual_icon {
 		width: 20px;
 		height: 20px;
@@ -30,7 +27,6 @@
 		margin: -10px;
 		background: url("../icons/completed.png");
 	}
-
 	.custom-checkbox__visual {
 		width: 30px;
 		height: 30px;
