@@ -1,0 +1,36 @@
+.todo-board {
+	background: #ffffff;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	position: relative;
+}
+	.todo-board:before,
+	.todo-board:after {
+		z-index: -1;
+		background: #ffffff;
+		position: absolute;
+		top: 100%
+		box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	}
+		.todo-board.__frame:before,
+		.todo-board.__frame:after {
+			content: '';
+		}
+		.todo-board:before {
+			left: 10px;
+			right: 10px;
+			height: 10px;
+		}
+		.todo-board:after {
+			left: 5px;
+			right: 5px;
+			height: 5px;
+		}
+	.todo-board .todo-tasks,
+	.todo-board .todo-toolbar {
+		display: none;
+	}
+
+	.todo-board.__frame .todo-tasks,
+	.todo-board.__frame .todo-tasks {
+		display: block;
+	}
