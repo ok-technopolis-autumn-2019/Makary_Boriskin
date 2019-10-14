@@ -26,7 +26,7 @@
 		}
 		.todo-tasks__item_text {
 			cursor: text;
-			font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , Arial, sans-serif !important;
+			font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , 'Times', sans-serif !important;
 			width: 100%;
 			padding-top: 12px;
 		}
