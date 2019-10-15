@@ -1,8 +1,8 @@
 .todo-toolbar {
 	border-top: 1px solid #e6e6e6;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , 'Times', sans-serif;
 	display: flex !important;
-	padding: .8em;
+	padding: 15px;
 	font-size: 16px;
 	justify-content: center;
 }
@@ -29,12 +29,12 @@
 			text-decoration: none;
 			cursor: pointer;
 		}
-		.todo-toolbar__filters-item:hover {
-			border: 1px solid #ebdfdf;
-		}
-		.todo-toolbar__filters:active {
-			border-color: rgba(43,43,43,.45);
-		}
+			.todo-toolbar__filters-item:hover {
+				border: 1px solid #ebdfdf;
+			}
+			.todo-toolbar__filters:active {
+				border-color: rgba(43,43,43,.45);
+			}
 	.todo-toolbar__clear-completed {
 		outline: none;
 		margin-left: auto;

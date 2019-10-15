@@ -28,8 +28,8 @@
 		background: url("../icons/completed.png");
 	}
 	.custom-checkbox__visual {
-		width: 30px;
-		height: 30px;
+		width: 36px;
+		height: 36px;
 		box-sizing: border-box;
 		border: 1px solid #ccc;
 		border-radius: 50%;
