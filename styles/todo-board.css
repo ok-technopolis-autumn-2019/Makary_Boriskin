@@ -16,14 +16,14 @@
 			content: '';
 		}
 		.todo-board:before {
-			left: 10px;
-			right: 10px;
-			height: 10px;
+			left: 8px;
+			right: 8px;
+			height: 8px;
 		}
 		.todo-board:after {
-			left: 5px;
-			right: 5px;
-			height: 5px;
+			left: 4px;
+			right: 4px;
+			height: 4px;
 		}
 	.todo-board .todo-tasks,
 	.todo-board .todo-toolbar {

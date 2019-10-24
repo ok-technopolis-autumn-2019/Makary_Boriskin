@@ -20,7 +20,7 @@
 
 	@media (-webkit-min-device-pixel-ratio: 1.5),
 		(min-resolution: 120dpi),
-		(min-resolution: 1.5dpp) {
+		(min-resolution: 1.5dppx) {
 		.todo-creator__select-all {
 			background: url("../icons/select-all@2x.png") no-repeat 0 0;
 		}
@@ -34,7 +34,7 @@
 			background: none;
 			outline: none;
 			width: 100%;
-			font-size: 25px;
+			font-size: 24px;
 			color: #cccccc;
 			font-weight: 300;
 		}
