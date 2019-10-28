@@ -31,6 +31,6 @@
 	}
 
 	.todo-board.__frame .todo-tasks,
-	.todo-board.__frame .todo-tasks {
+	.todo-board.__frame .todo-toolbar {
 		display: block;
 	}

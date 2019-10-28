@@ -1,5 +1,5 @@
 .todo-creator {
-	padding: 16px 16px;
+	padding: 16px 20px;
 }
 	.todo-creator:after {
 		content: '';
@@ -9,7 +9,7 @@
 	.todo-creator__select-all {
 		float: left;
 		margin-right: 16px;
-		margin-top: 11px;
+		margin-top: 10px;
 		width: 24px;
 		height: 12px;
 		padding: 0px;
@@ -17,12 +17,16 @@
 		outline: none;
 		background: url("../icons/select-all.png") no-repeat 0 0;
 	}
+	.todo-creator__select-all:focus {
+		border: solid #4d90fe 1px;
+	}
 
-	@media (-webkit-min-device-pixel-ratio: 1.5),
+	@media(-webkit-min-device-pixel-ratio:1.5),
 		(min-resolution: 120dpi),
 		(min-resolution: 1.5dppx) {
 		.todo-creator__select-all {
 			background: url("../icons/select-all@2x.png") no-repeat 0 0;
+			background-size: 20px 12px;
 		}
 	}
 
@@ -34,9 +38,14 @@
 			background: none;
 			outline: none;
 			width: 100%;
-			font-size: 24px;
-			color: #cccccc;
+			box-sizing: border-box;
+			color: #000000;
 			font-weight: 300;
+			font-size: 24px;
+			font-family: 'HelveticaNeueCyr', 'Helvetica Neue' , 'Times', sans-serif;
+		}
+		.todo-creator__text-input:focus {
+			border: solid #4d90fe 1px;
 		}
 		.todo-creator__text-input::-webkit-input-placeholder {
 			font-style: italic;
