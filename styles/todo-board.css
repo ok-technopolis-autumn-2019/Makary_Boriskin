@@ -1,36 +1,4 @@
 .todo-board {
 	background: #ffffff;
 	box-shadow: 0 2px 5px rgba(0,0,0,.2);
-	position: relative;
 }
-	.todo-board:before,
-	.todo-board:after {
-		z-index: -1;
-		background: #ffffff;
-		position: absolute;
-		top: 100%;
-		box-shadow: 0 2px 4px rgba(0,0,0,.2);
-	}
-		.todo-board.__frame:before,
-		.todo-board.__frame:after {
-			content: '';
-		}
-		.todo-board:before {
-			left: 8px;
-			right: 8px;
-			height: 8px;
-		}
-		.todo-board:after {
-			left: 4px;
-			right: 4px;
-			height: 4px;
-		}
-	.todo-board .todo-tasks,
-	.todo-board .todo-toolbar {
-		display: none;
-	}
-
-	.todo-board.__frame .todo-tasks,
-	.todo-board.__frame .todo-toolbar {
-		display: block;
-	}
