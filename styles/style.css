@@ -5,9 +5,6 @@
 @import "todo-title.css";
 @import "todo-board.css";
 @import "todo-creator.css";
-@import "todo-tasks.css";
-@import "todo-toolbar.css";
-@import "todo-tasks__item_remove.css";
+@import "todo-toolbar__filters.css";
 @import "todo-tasks__item_text.css";
 @import "todo-tasks__item.css";
-@import "import.css";

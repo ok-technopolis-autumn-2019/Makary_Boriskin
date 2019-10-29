@@ -4,10 +4,8 @@
 	}
 	.todo-creator__select-all {
 		width: 50px;
-		height: 55px;
-		padding: 0px;
+		height: 60px;
 		border: none;
-		outline: none;
 		background-image: url("../icons/select-all.svg");
 		background-color: transparent;
 		background-repeat: no-repeat;
@@ -22,11 +20,11 @@
 		font-size: 24px;
 		font-style: italic;
 		font-weight: 300;
-		height: 50px;
-		width: 80%;
+		height: 57px;
+		width: 90%;
 		padding-right: 7px;
 		padding-left: 7px;
 		line-height: 15px;
-		color: #cccccc;
+		color: #000000;
 		border: 0;
 	}
