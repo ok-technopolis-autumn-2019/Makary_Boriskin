@@ -15,10 +15,10 @@
 		background: rgba(0,0,0,.03);
 		cursor: pointer;
 	}
-	.todo-tasks__item__ready {
+	.custom-checkbox_item-ready {
 		align-self: center;
-		float: left;
-		margin-right: 16px;
+                float: left;
+                margin-right: 16px;
 	}
 	.todo-tasks__item_text-w {
 		width: 100%;
