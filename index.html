@@ -1,100 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    		<meta charset="UTF-8"/>
-    		<title>todos</title>
+		<meta charset="UTF-8"/>
+		<title>todos</title>
+		<link rel="stylesheet" href="styles/style.css"/>
 	</head>
 	<body>
 		<div class="todo">
     			<h1 class="todo-title">todos</h1>
-    			<div class="todo-board__frame">
-        			<form class="todo-creator">
-            				<button class="todo-creator__select-all" aria-label="Select all items"></button>
-            				<div class="todo-creator__text-input-w">
-                				<input class="todo-creator__text-input" type="text"  placeholder="What needs to be done?" aria-label="Input todos text" />
-            				</div>
-        			</form>
-        			<div class="todo-tasks">
-            				<div class="todo-tasks__item">
-                				<div class="custom-checkbox todo-tasks__item_ready-marker">
-                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark as check" />
-                    					<div class="custom-checkbox__visual">
-                        					<div class="custom-checkbox__visual_icon"></div>
-                    					</div>
-                				</div>
-                    				<div class="todo-tasks__item_text-w">
-                        				<div class="todo-tasks__item_text" contenteditable="false">HTML</div>
-                    				</div>
-                				<div class = "todo-tasks__item_remove-action">
-                    					<div class = "todo-tasks__item_remove-action-fix">
-                        					<buttom class="todo-tasks__item_remove" aria-label="Rm"></buttom>
-                    					</div>
-                				</div>
-            				</div>
-            				<div class="todo-tasks__item">
-                				<div class="custom-checkbox todo-tasks__item_ready-marker">
-                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark as check" />
+    			<main class="todo-board">
+				<section class="todo-board__begin-section todo-creator">
+					<div class="todo-creator">
+						<button class="todo-creator__select-all" aria-label="Select all tasks"></button>
+						<input class="todo-creator__text-input" type="text" placeholder="What needs to be done?" aria-label="Input todos text"/>
+					</div>
+				</section>
+				<section class="todo-board__global-section todo-tasks">
+					<div class="todo-tasks__item">
+						<div class="custom-checkbox custom-checkbox_item-ready">
+                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark item as checked" />
                     					<div class="custom-checkbox__visual">
                         					<div class="custom-checkbox__visual_icon"></div>
                     					</div>
                 				</div>
                 				<div class="todo-tasks__item_text-w">
-                    					<div class="todo-tasks__item_text" contenteditable="false">CSS</div>
-                				</div>
-                				<div class = "todo-tasks__item_remove-action">
-                   					<div class = "todo-tasks__item_remove-action-fix">
-                        					<buttom class="todo-tasks__item_remove" aria-label="Rm"></buttom>
-                    					</div>
-                				</div>
-            				</div>
-            				<div class="todo-tasks__item">
-                				<div class="custom-checkbox todo-tasks__item_ready-marker">
-                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark as check" />
-                    					<div class="custom-checkbox__visual">
-                        					<div class="custom-checkbox__visual_icon"></div>
-                    					</div>
-                				</div>
-                				<div class="todo-tasks__item_text-w">
-                    					<div class="todo-tasks__item_text" contenteditable="false">JS</div>
-                				</div>
-                				<div class = "todo-tasks__item_remove-action">
-                    					<div class = "todo-tasks__item_remove-action-fix">
-                        					<buttom class="todo-tasks__item_remove" aria-label="Rm"></buttom>
-                    					</div>
-                				</div>
-            				</div>
-            				<div class="todo-tasks__item">
-                				<div class="custom-checkbox todo-tasks__item_ready-marker">
-                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark as check" />
-                    					<div class="custom-checkbox__visual">
-                        					<div class="custom-checkbox__visual_icon"></div>
-                    					</div>
-                				</div>
-                				<div class="todo-tasks__item_text-w">
-                    					<div class="todo-tasks__item_text" contenteditable="false">JS tools</div>
+                    					<div class="todo-tasks__item_text">HTML</div>
                					</div>
-                				<div class = "todo-tasks__item_remove-action">
-                    					<div class = "todo-tasks__item_remove-action-fix">
-                        					<buttom class="todo-tasks__item_remove" aria-label="Rm"></buttom>
+						<button class="todo-tasks__remove-item" aria-label="Remove item"></button>
+					</div>
+					<div class="todo-tasks__item">
+						<div class="custom-checkbox custom-checkbox_item-ready">
+                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark item as checked" />
+                    					<div class="custom-checkbox__visual">
+                        					<div class="custom-checkbox__visual_icon"></div>
                     					</div>
                 				</div>
-            				</div>
-        			</div>
-        			<div class="todo-toolbar">
-            				<div class="todo-toolbar__unready-counter">3 items left</div>
-
-            					<div class="todo-toolbar__filters">
-                					<button class="todos-toolbar__filters-item" aria-label="All, is selected">All</button>
-                					<button class="todos-toolbar__filters-item" aria-label="Active">Active</button>
-                					<button class="todos-toolbar__filters-item" aria-label="Completed">Completed</button>
-            					</div>
-
-            					<button class="todo-toolbar__clear-completed">Clear completed</button>
-
-        				</div>
-
-    				</div>
-			</div>
+                				<div class="todo-tasks__item_text-w">
+                    					<div class="todo-tasks__item_text">CSS</div>
+               					</div>
+						<button class="todo-tasks__remove-item" aria-label="Remove item"></button>
+					</div>
+					<div class="todo-tasks__item">
+						<div class="custom-checkbox custom-checkbox_item-ready">
+                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark item as checked" />
+                    					<div class="custom-checkbox__visual">
+                        					<div class="custom-checkbox__visual_icon"></div>
+                    					</div>
+                				</div>
+                				<div class="todo-tasks__item_text-w">
+                    					<div class="todo-tasks__item_text">JS</div>
+               					</div>
+						<button class="todo-tasks__remove-item" aria-label="Remove item"></button>
+					</div>
+					<div class="todo-tasks__item">
+						<div class="custom-checkbox custom-checkbox_item-ready">
+                    					<input type="checkbox" class="custom-checkbox__target" aria-label="Mark item as checked" />
+                    					<div class="custom-checkbox__visual">
+                        					<div class="custom-checkbox__visual_icon"></div>
+                    					</div>
+                				</div>
+                				<div class="todo-tasks__item_text-w">
+                    					<div class="todo-tasks__item_text">JS tools</div>
+               					</div>
+						<button class="todo-tasks__remove-item" aria-label="Remove item"></button>
+					</div>
+					<div class="todo-tasks__item"></div>
+                		</section>
+				<section class="todo-board__end-section todo-toolbar">
+					<div class="todo-toolbar__filters">
+						<span class="filters__unready-counter" aria-label="3 items left">3 items left</span>
+					</div>
+					<div class="todo-toolbar__filters" role="group" aria-label="Filters">
+						<input class="todo-toolbar-element__input" type="radio" name="option" checked="checked" value="All" aria-label="All, is selected" id="All-radio"/>
+						<label class="todo-toolbar-element" for="All-radio">
+							<span class="todo-toolbar-element__text">All</span>
+						</label>
+						<input class="todo-toolbar-element__input" type="radio" name="option" value="Active" aria-label="Active" id="Active-radio"/>
+						<label class="todo-toolbar-element" for="Active-radio">
+							<span class="todo-toolbar-element__text">Active</span>
+						</label>
+						<input class="todo-toolbar-element__input" type="radio" name="option" value="Completed" aria-label="Completed" id="Completed-radio"/>
+						<label class="todo-toolbar-element" for="Completed-radio">
+							<span class="todo-toolbar-element__text">Completed</span>
+						</label>
+					</div>
+					<div class="todo-toolbar__filters">
+						<button class="todo-toolbar__filters__clear-completed" aria-label="Clear completed">
+							Clear completed
+						</button>
+					</div>
+				</section>
+			</main>
 		</div>
 	</body>
 </html>
