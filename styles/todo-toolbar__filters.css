@@ -10,7 +10,7 @@
 	color: gray;
 }
 	.todo-toolbar__filters__clear-completed {
-		background: #ffffff;
+		background: #FFFFFF;
 		border: none;	
 	}
 	.todo-toolbar__filters .todo-toolbar-element__input {
@@ -18,14 +18,13 @@
 		left: -9999px;
 	}
 		.todo-toolbar-element__input:focus:checked + .todo-toolbar-element {
-			border: solid #4d90fe 1px;
+			border: solid #4D90FE 1px;
 		}
 		input[type=radio]:checked + .todo-toolbar-element {
-			border: 1px solid #ebdfdf;
+			border: 1px solid #EBDFDF;
 		}
 		.todo-toolbar-element {
 			padding-left: 5px;
 			padding-right: 5px;
 			border: solid transparent 1px;
-
 		}

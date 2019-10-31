@@ -1,7 +1,7 @@
 .todo-tasks__item {
 	display: flex;
-	border-bottom: 1px inset #e6e6e6;
-	background: #ffffff;
+	border-bottom: 1px inset #E6E6E6;
+	background: #FFFFFF;
 	min-height: 30px;
 	padding: 15px;
 }
@@ -46,5 +46,5 @@
 		width: 40px;
 		height: 40px;
 		border: none;
-		background: #ffffff;
+		background: #FFFFFF;
 	}

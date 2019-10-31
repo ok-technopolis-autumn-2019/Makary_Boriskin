@@ -1,11 +1,11 @@
 .todo-board {
-	background: #ffffff;
+	background: #FFFFFF;
 	box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 	.todo-board__begin-section {
 		height: 60px;
-		background: #ffffff;
-		border-bottom: #e6e6e6 1px inset;
+		background: #FFFFFF;
+		border-bottom: #E6E6E6 1px inset;
 	}
 	.todo-board__end-section {
 		display: flex;
@@ -13,6 +13,6 @@
 		justify-content: space-between;
 		padding: 10px;
 		white-space: nowrap;
-		background: #ffffff;
+		background: #FFFFFF;
 		bottom: 0;
 	}
