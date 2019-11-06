@@ -123,7 +123,7 @@ body {
   top: 50%;
   left: 50%;
   margin: -10px;
-  background: url("../icons/completed.svg");
+  background: url("./icons/completed.svg");
 }
 
 .custom-checkbox__visual {
@@ -237,7 +237,7 @@ body {
   width: 50px;
   height: 60px;
   border: none;
-  background-image: url("../icons/select-all.svg");
+  background-image: url("./icons/select-all.svg");
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -278,7 +278,7 @@ body {
 /*toolbar properties*/
 /*variables for checkbox*/
 .todo-toolbar__filters,
-.todo-toolbar__filters__clear-completed {
+.todo-toolbar__filters_clear-completed {
   display: flex;
   font-family: "HelveticaNeueCyr", "HelveticaNeue", "Times", sans-serif;
   font-style: normal;
@@ -404,7 +404,7 @@ input[type=radio]:checked + .todo-toolbar-element {
 
 .todo-tasks__item:hover .todo-tasks__remove-item,
 .todo-tasks__remove-item:focus {
-  background-image: url(../icons/close.svg);
+  background-image: url(./icons/close.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
