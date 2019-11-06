@@ -1,0 +1,37 @@
+@import "vars";
+
+@mixin bottomLayer($height-distance, $left-right-offset, $z-index-layer) {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    height: $height-distance;
+    left: $left-right-offset;
+    right: $left-right-offset;
+    z-index: $z-index-layer;
+    }
+
+@mixin shadowAroundBoxes() {
+    background-color: $background_color;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+@mixin backgroundImage($url-to-image) {
+    background-image: $url-to-image;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    }
+
+@mixin todosFrameBackground() {
+    background: $background_color;
+    border-bottom: $border-color $border_width inset;
+    }
+
+@mixin invisibleElement() {
+    position: absolute;
+    left: $invisible_range;
+    }
+
+@mixin checkboxBorder($checkbox-border-color) {
+    border: solid $checkbox-border-color $border_width;
+    } 

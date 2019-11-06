@@ -1,8 +1,44 @@
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 html, body, div, h1, h2 input {
   margin: 0;
   padding: 0;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 body {
   background: #F5F5F5;
 }
@@ -39,6 +75,24 @@ body {
   z-index: -2;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .custom-checkbox {
   display: inline-block;
   position: relative;
@@ -69,7 +123,7 @@ body {
   top: 50%;
   left: 50%;
   margin: -10px;
-  background: url("icons/completed.svg");
+  background: url("../icons/completed.svg");
 }
 
 .custom-checkbox__visual {
@@ -92,6 +146,24 @@ body {
   margin-right: 16px;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-title {
   font-family: "HelveticaNeueCyr", "HelveticaNeue", "Times", sans-serif;
   font-size: 100px;
@@ -104,6 +176,24 @@ body {
   line-height: 100px;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-board {
   background: #FFFFFF;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -125,11 +215,29 @@ body {
   bottom: 0;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-creator__select-all {
   width: 50px;
   height: 60px;
   border: none;
-  background-image: url("icons/select-all.svg");
+  background-image: url("../icons/select-all.svg");
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -151,6 +259,24 @@ body {
   border: 0;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-toolbar__filters,
 .todo-toolbar__filters__clear-completed {
   display: flex;
@@ -160,10 +286,10 @@ body {
   font-size: 24px;
   line-height: 2;
   align-items: center;
-  color: gray;
+  color: #888888;
 }
 
-.todo-toolbar__filters__clear-completed {
+.todo-toolbar__filters_clear-completed {
   background: #FFFFFF;
   border: none;
 }
@@ -187,6 +313,24 @@ input[type=radio]:checked + .todo-toolbar-element {
   border: solid transparent 1px;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-tasks__item_text {
   font-family: "HelveticaNeueCyr", "HelveticaNeue", "Times", sans-serif;
   font-size: 24px;
@@ -196,6 +340,24 @@ input[type=radio]:checked + .todo-toolbar-element {
   word-break: break-word;
 }
 
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
+/*colors*/
+/*base colors properties*/
+/*hover properties*/
+/*borders properties*/
+/*offset and height for extra layers*/
+/*base properties for font*/
+/*base properties for tittle*/
+/*toolbar properties*/
+/*variables for checkbox*/
 .todo-tasks__item {
   display: flex;
   border-bottom: 1px inset #E6E6E6;
@@ -242,7 +404,7 @@ input[type=radio]:checked + .todo-toolbar-element {
 
 .todo-tasks__item:hover .todo-tasks__remove-item,
 .todo-tasks__remove-item:focus {
-  background-image: url("icons/close.svg");
+  background-image: url(../icons/close.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;

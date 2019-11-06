@@ -1,3 +1,6 @@
+@import "vars";
+@import "mixins";
+
 .todo-tasks__item {
 	display: flex;
 	border-bottom: 1px inset #E6E6E6;
