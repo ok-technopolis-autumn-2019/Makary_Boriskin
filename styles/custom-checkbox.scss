@@ -1,3 +1,6 @@
+@import "vars";
+@import "mixins";
+
 .custom-checkbox {
 	display: inline-block;
 	position: relative;
@@ -16,7 +19,7 @@
 		z-index: 1;
 	}
 	.custom-checkbox__target:checked ~ .custom-checkbox__visual {
-		border-color: #5DC2AF;
+		border-color: $light_green_1;
 	}
 	.custom-checkbox__target:checked ~ .custom-checkbox__visual .custom-checkbox__visual_icon {
 		width: 20px;
@@ -28,16 +31,16 @@
 		background: url("../icons/completed.svg");
 	}
 	.custom-checkbox__visual {
-		width: 36px;
-		height: 36px;
+		width: $checkbox_width_height;
+		height: $checkbox_width_height;
 		box-sizing: border-box;
-		border: 1px solid #CCCCCC;
+		border: 1px solid $white_grey_3;
 		border-radius: 50%;
 		position: relative;
-		background: #FFFFFF;
+		background: $white_1;
 	}
 	.custom-checkbox__target:focus ~ .custom-checkbox__visual {
-		border: solid #4D90FE 1px;
+		border: solid $light_blue_1 $border_width;
 	}
 	.custom-checkbox .custom-checkbox_ready {
 		align-self: center;

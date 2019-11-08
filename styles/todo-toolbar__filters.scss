@@ -1,0 +1,33 @@
+@import "vars";
+@import "mixins";
+
+.todo-toolbar__filters,
+.todo-toolbar__filters_clear-completed {
+	display: flex;
+	font-family: $font_family_text;	
+	font-style: $font_style_text;
+	font-weight: $font_weight_text;
+	font-size: $font_size_text;
+	line-height: 2;
+	align-items: center;
+	color: $white_grey_3;
+}
+	.todo-toolbar__filters_clear-completed {
+		background: $white_1;
+		border: none;	
+	}
+	.todo-toolbar__filters .todo-toolbar-element__input {
+		position: absolute;
+		left: -9999px;
+	}
+		.todo-toolbar-element__input:focus:checked + .todo-toolbar-element {
+			border: solid $light_blue_1 $border_width;
+		}
+		input[type=radio]:checked + .todo-toolbar-element {
+			border: $border_width solid $red_grey_1;
+		}
+		.todo-toolbar-element {
+			padding-left: $left_right_offset_layer;
+			padding-right: $left_right_offset_layer;
+			border: solid $invisible $border_width;
+		}

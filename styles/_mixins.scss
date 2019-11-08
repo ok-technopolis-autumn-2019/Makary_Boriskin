@@ -1,0 +1,21 @@
+@import "vars";
+
+@mixin bottomLayer($height-distance, $left-right-offset, $z-index-layer) {
+	content: '';
+	position: absolute;
+	top: 100%;
+	height: $height-distance;
+	left: $left-right-offset;
+	right: $left-right-offset;
+	z-index: $z-index-layer;
+}
+
+@mixin shadowAroundBoxes() {
+	background-color: $background_color;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+@mixin todosFrameBackground() {
+	background: $background_color;
+	border-bottom: $border-color $border_width inset;
+}
