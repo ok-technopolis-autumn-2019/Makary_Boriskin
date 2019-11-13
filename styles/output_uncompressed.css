@@ -278,7 +278,7 @@ body {
 /*toolbar properties*/
 /*variables for checkbox*/
 .todo-toolbar__filters,
-.todo-toolbar__filters_clear-completed {
+.todo-toolbar__clear-completed {
   display: flex;
   font-family: "HelveticaNeueCyr", "HelveticaNeue", "Times", sans-serif;
   font-style: normal;
@@ -289,7 +289,7 @@ body {
   color: #CCCCCC;
 }
 
-.todo-toolbar__filters_clear-completed {
+.todo-toolbar__clear-completed {
   background: #FFFFFF;
   border: none;
 }
